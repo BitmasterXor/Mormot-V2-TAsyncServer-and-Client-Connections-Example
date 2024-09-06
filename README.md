@@ -1,5 +1,4 @@
 
-<title>Delphi Asynchronous Server</title>
 </head>
 <body>
     <h1>🔄 Delphi Asynchronous Server</h1>
