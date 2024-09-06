@@ -1,11 +1,15 @@
 
 </head>
 <body>
-    <h1>🔄 Delphi Asynchronous Server</h1>
+    <h1>🔄 Delphi MorMot Sockets (Asynchronous Server)</h1>
     <p>
         A Delphi VCL application that creates an asynchronous server using the <strong>mORMot</strong> library. 
         This server can manage multiple client connections, send messages, and dynamically update the client list.
     </p>
+
+<p align="center">
+  <img src="Preview.png">
+</p>
     <h2>📋 Features</h2>
     <ul>
         <li><strong>Asynchronous Server</strong>: Implements a non-blocking server using <code>mormot.net.async</code> and <code>mormot.net.sock</code>.</li>
