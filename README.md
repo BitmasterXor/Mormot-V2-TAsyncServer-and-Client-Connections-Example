@@ -1,26 +1,40 @@
-Delphi Asynchronous Server
-A Delphi VCL application that demonstrates an asynchronous server using the mORMot library to manage multiple client connections and send messages.
 
-📋 Features
-Asynchronous Server: Uses mORMot.net.async and mORMot.net.sock to implement an efficient non-blocking server.
-Send Messages to Clients: Ability to send messages to a specific client or broadcast to all connected clients.
-Client Management: Displays connected clients in a TListView and logs server activity in a TMemo.
-Dynamic Client Updates: Automatically updates the client list when clients connect or disconnect.
-🔍 Overview
-Button1Click: Starts or stops the asynchronous server on the specified port.
-Button2Click: Sends a predefined message to all connected clients.
-Button3Click: Sends a predefined message to a selected client.
-SendToSelectedClient: Sends a message to a specified client ID.
-SendToAllClients: Broadcasts a message to all connected clients.
-LogMessage: Displays server events and messages in the TMemo control.
-TConnection: Manages client connections, reads data, and handles connection events.
-🛠️ Requirements
-Delphi RAD Studio: With VCL support.
-mORMot V2 Library: Available at mORMot2 GitHub.
-📜 License
-This project is freeware provided as is. Use at your own risk for research purposes!
-
-📧 Contact
-Discord: BitmasterXor
-
-Made with ❤️ by BitmasterXor, using Delphi RAD Studio.
+<title>Delphi Asynchronous Server</title>
+</head>
+<body>
+    <h1>🔄 Delphi Asynchronous Server</h1>
+    <p>
+        A Delphi VCL application that creates an asynchronous server using the <strong>mORMot</strong> library. 
+        This server can manage multiple client connections, send messages, and dynamically update the client list.
+    </p>
+    <h2>📋 Features</h2>
+    <ul>
+        <li><strong>Asynchronous Server</strong>: Implements a non-blocking server using <code>mormot.net.async</code> and <code>mormot.net.sock</code>.</li>
+        <li><strong>Messaging</strong>: Supports sending messages to a specific client or broadcasting to all connected clients.</li>
+        <li><strong>Client Management</strong>: Displays connected clients in a <code>TListView</code> and logs server activities in a <code>TMemo</code>.</li>
+        <li><strong>Automatic Client Updates</strong>: Dynamically adds or removes clients from the list upon connection or disconnection.</li>
+    </ul>
+    <h2>🔍 Overview</h2>
+    <ul>
+        <li><code>Button1Click</code>: Starts or stops the asynchronous server on a specified port.</li>
+        <li><code>Button2Click</code>: Broadcasts a predefined message to all connected clients.</li>
+        <li><code>Button3Click</code>: Sends a predefined message to a selected client.</li>
+        <li><code>SendToSelectedClient</code>: Sends a custom message to a specific client ID.</li>
+        <li><code>SendToAllClients</code>: Broadcasts a custom message to all clients.</li>
+        <li><code>LogMessage</code>: Displays server logs and events in the <code>TMemo</code>.</li>
+        <li><code>TConnection</code>: Handles client connections, data reading, and connection events.</li>
+    </ul>
+    <h2>🛠️ Requirements</h2>
+    <ul>
+        <li><strong>Delphi RAD Studio</strong>: IDE with VCL support.</li>
+        <li><strong>mORMot V2 Library</strong>: Download from <a href="https://github.com/synopse/mORMot2" target="_blank">GitHub</a>.</li>
+    </ul>
+    <h2>📜 License</h2>
+    <p>
+        This project is provided as freeware. Use at your own risk for research purposes.
+    </p>
+    <h2>📧 Contact</h2>
+    <p>
+        <strong>Discord</strong>: BitmasterXor
+    </p>
+    <p>Developed with ❤️ by <strong>BitmasterXor</strong>, using Delphi RAD Studio.</p>
