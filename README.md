@@ -20,8 +20,6 @@
     <h2>🔍 Overview</h2>
     <ul>
         <li><code>Button1Click</code>: Starts or stops the asynchronous server on a specified port.</li>
-        <li><code>Button2Click</code>: Broadcasts a predefined message to all connected clients.</li>
-        <li><code>Button3Click</code>: Sends a predefined message to a selected client.</li>
         <li><code>SendToSelectedClient</code>: Sends a custom message to a specific client ID.</li>
         <li><code>SendToAllClients</code>: Broadcasts a custom message to all clients.</li>
         <li><code>LogMessage</code>: Displays server logs and events in the <code>TMemo</code>.</li>
