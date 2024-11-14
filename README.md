@@ -8,7 +8,7 @@
     </p>
 
 <p align="center">
-  <img src="Preview.png">
+  <img src="ThePreview.png">
 </p>
     <h2>📋 Features</h2>
     <ul>
