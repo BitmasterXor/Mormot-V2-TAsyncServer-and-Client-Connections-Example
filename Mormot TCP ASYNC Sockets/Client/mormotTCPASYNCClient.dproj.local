@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/07/25 19:25:00.000.326,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/05 17:57:24.000.253,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/05 18:03:41.000.449,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\BitmasterXor\Desktop\BitmasterXor Mormot TCP ASYNC Sockets\Client\Unit1.dfm</Transaction>
+    <Transaction>2024/09/05 18:03:41.000.449,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\BitmasterXor\Desktop\BitmasterXor Mormot TCP ASYNC Sockets\Client\Unit1.pas</Transaction>
+    <Transaction>2024/09/05 18:03:48.000.374,C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\BitmasterXor\Desktop\BitmasterXor Mormot TCP ASYNC Sockets\Client\mormotTCPASYNCClient.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
